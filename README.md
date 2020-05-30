@@ -16,6 +16,10 @@
 
 ## Available Scripts
 
+### npm install
+
+Installs all dependencies.
+
 ### npm start
 
 Runs the app in the development mode.
@@ -37,5 +41,5 @@ Your app is ready to be deployed!
 ## NOTE
 
  Installed & configured thanks to: <https://codechips.me/snowpack-svelte-typescript-tailwindcss/>
- 
+
  **Babylon.js** TBD via: <https://github.com/DisownedWheat/BabylonJS-Svelte-Typescript-Example>
