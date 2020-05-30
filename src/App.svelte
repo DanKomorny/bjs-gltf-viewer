@@ -1,4 +1,5 @@
 <script>
+	//import './main.css';
 	const message = 'Learn Svelte';
 </script>
 
@@ -41,7 +42,7 @@
 
 <div class="App">
 	<header class="App-header">
-		<img src="/logo.svg" class="App-logo" alt="logo" />
+		<img src="/logo.svg" class="App-logo" alt="logo" />	
 		<p>
 			Edit <code>src/App.svelte</code> and save to reload.
 		</p>

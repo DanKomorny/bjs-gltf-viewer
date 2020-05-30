@@ -1,11 +1,18 @@
 # gLTF Viewer
 
-> ✨ Bootstrapped with Create Snowpack App (CSA).
-> With Snowpack, Svelte, Typescript & linting support.
+## Bootstrapped with Create Snowpack App (CSA)
+
+### Ready boilerplate for development or further bootstrapping
+
+#### With Webpack plugin, Svelte, Typescript & linting support, Tailwind & PostCSS
 
 ## TO-DO
 
-### TailwindCSS
+**Babylon.js** - imports & basic scene boilerplate
+
+**Webpack** - advanced config
+
+**snowpack dev server** - local https with working SSL
 
 ## Available Scripts
 
@@ -26,9 +33,3 @@ See the section about running tests for more information.
 
 Builds a static copy of yor site to the `build/` folder.
 Your app is ready to be deployed!
-
-**For the best production performance:** Add a build bundler plugin like "@snowpack/plugin-webpack" or "@snowpack/plugin-parcel" to your `snowpack.config.json` config file.
-
-### Q: What about Eject?
-
-No eject needed! Snowpack guarantees zero lock-in, and CSA strives for the same.
