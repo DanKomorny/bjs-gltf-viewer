@@ -1,25 +1,15 @@
 {
-  "name": "bjs-gltf-viewer",
-  "version": "1.0.0",
-  "description": "Custom gLTF Viewer Implementation",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "snowpack dev",
+    "build": "snowpack build",
+    "test": "jest"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/DanKomorny/bjs-gltf-viewer.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/DanKomorny/bjs-gltf-viewer/issues"
-  },
-  "homepage": "https://github.com/DanKomorny/bjs-gltf-viewer#readme",
   "devDependencies": {
-    "@babel/core": "^7.10.1",
-    "rollup": "^2.11.2",
-    "snowpack": "^2.0.3"
+    "@snowpack/app-scripts-svelte": "^1.0.1",
+    "@testing-library/jest-dom": "^5.5.0",
+    "@testing-library/svelte": "^3.0.0",
+    "jest": "^25.4.0",
+    "snowpack": "^2.0.0",
+    "svelte": "^3.21.0"
   }
 }
