@@ -33,3 +33,9 @@ See the section about running tests for more information.
 
 Builds a static copy of yor site to the `build/` folder.
 Your app is ready to be deployed!
+
+## NOTE
+
+ Installed & configured thanks to: <https://codechips.me/snowpack-svelte-typescript-tailwindcss/>
+ 
+ **Babylon.js** TBD via: <https://github.com/DisownedWheat/BabylonJS-Svelte-Typescript-Example>
