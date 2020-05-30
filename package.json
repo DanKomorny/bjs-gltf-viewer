@@ -4,13 +4,22 @@
     "build": "snowpack build",
     "test": "jest"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DanKomorny/bjs-gltf-viewer.git",
+    "license": "MIT"
+  },
   "devDependencies": {
     "@babel/preset-env": "^7.10.2",
+    "@babel/preset-typescript": "^7.10.1",
     "@snowpack/app-scripts-svelte": "^1.0.1",
+    "@snowpack/plugin-babel": "^1.0.0",
     "@testing-library/jest-dom": "^5.5.0",
     "@testing-library/svelte": "^3.0.0",
     "jest": "^26.0.1",
+    "rollup": "^1.32.1",
     "snowpack": "^2.0.0",
-    "svelte": "^3.21.0"
+    "svelte": "^3.21.0",
+    "typescript": "^3.9.3"
   }
 }
