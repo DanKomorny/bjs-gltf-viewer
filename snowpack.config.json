@@ -5,5 +5,6 @@
     "run:tsc::watch": "$1 --watch"
   },
   "devOptions": {},
-  "installOptions": {}
+  "installOptions": {},
+  "plugins": [["@snowpack/plugin-webpack", {}]]
 }
