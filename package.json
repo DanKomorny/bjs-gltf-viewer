@@ -16,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/DanKomorny/bjs-gltf-viewer/issues"
   },
-  "homepage": "https://github.com/DanKomorny/bjs-gltf-viewer#readme"
+  "homepage": "https://github.com/DanKomorny/bjs-gltf-viewer#readme",
+  "devDependencies": {
+    "@babel/core": "^7.10.1",
+    "rollup": "^2.11.2",
+    "snowpack": "^2.0.3"
+  }
 }
