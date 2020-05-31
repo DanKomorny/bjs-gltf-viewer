@@ -44,6 +44,8 @@ Lints code. Run **before build task**, otherwise it resorts to catch compiled fa
 Builds a static copy of yor site to the `build/` folder.
 Your app is ready to be deployed! Always flush after yourself (**delete build folder after export to production**)!
 
+## Current build size
+
 ## NOTE
 
  Installed & configured thanks to: <https://codechips.me/snowpack-svelte-typescript-tailwindcss/>

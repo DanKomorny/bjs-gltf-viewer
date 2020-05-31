@@ -1,11 +1,15 @@
 // postcss.config.js
 
-const tailwind = require('tailwindcss');
-const autoprefixer = require('autoprefixer');
-const cssnano = require('cssnano');
+// eslint-disable-next-line @typescript-eslint/no-var-requires
+const tailwind = require("tailwindcss");
+// eslint-disable-next-line @typescript-eslint/no-var-requires
+const autoprefixer = require("autoprefixer");
+// eslint-disable-next-line @typescript-eslint/no-var-requires
+const cssnano = require("cssnano");
 
-const plugins = process.env.NODE_ENV === 'production'
-	? [tailwind, autoprefixer, cssnano]
-	: [tailwind, autoprefixer];
+const plugins =
+  process.env.NODE_ENV === "production"
+    ? [tailwind, autoprefixer, cssnano]
+    : [tailwind, autoprefixer];
 
 module.exports = { plugins };
