@@ -46,6 +46,32 @@ Your app is ready to be deployed! Always flush after yourself (**delete build fo
 
 ## Current build size
 
+```bash
+build
+├── [  96]  build/css
+│   └── [ 557]  build/css/style-b32110100faa49d8cf56.css
+├── [1.1K]  build/favicon.ico
+├── [ 954]  build/index.html
+├── [  96]  build/js
+│   └── [5.9K]  build/js/bundle-b32110100faa49d8cf56.js
+├── [1.1K]  build/logo.svg
+└── [  67]  build/robots.txt
+
+public
+├── [1.1K]  public/favicon.ico
+├── [ 882]  public/index.html
+├── [1.1K]  public/logo.svg
+└── [  67]  public/robots.txt
+
+src
+├── [1016]  src/App.svelte
+├── [ 252]  src/App.test.js
+├── [   0]  src/file.ts
+├── [ 349]  src/index.js
+├── [  60]  src/main.css
+└── [ 134]  src/tailwind.config.js
+```
+
 ## NOTE
 
  Installed & configured thanks to: <https://codechips.me/snowpack-svelte-typescript-tailwindcss/>
