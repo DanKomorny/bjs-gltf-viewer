@@ -2,9 +2,9 @@
 
 ## Bootstrapped with Create Snowpack App (CSA)
 
-### Ready boilerplate for development or further bootstrapping
+### Production-ready boilerplate for development or further bootstrapping
 
-#### With Webpack plugin, Svelte, Typescript & linting support, Tailwind & PostCSS
+#### With Webpack plugin, Svelte, Typescript (ESLint, Prettier, lint-staged & husky), Tailwind & PostCSS
 
 ## TO-DO
 
@@ -12,7 +12,9 @@
 
 **Webpack** - advanced config
 
-**snowpack dev server** - local https with working SSL
+**Snowpack dev server** - local https with working SSL
+
+**Autoclear build folder** - export & clear automatically build folder after each build task
 
 ## Available Scripts
 
@@ -33,10 +35,14 @@ You will also see any lint errors in the console.
 Launches the test runner in the interactive watch mode.
 See the section about running tests for more information.
 
+### npm run lint
+
+Lints code. Run **before build task**, otherwise it resorts to catch compiled false-positives.
+
 ### npm run build
 
 Builds a static copy of yor site to the `build/` folder.
-Your app is ready to be deployed!
+Your app is ready to be deployed! Always flush after yourself (**delete build folder after export to production**)!
 
 ## NOTE
 
