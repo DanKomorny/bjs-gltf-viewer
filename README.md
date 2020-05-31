@@ -49,3 +49,13 @@ Your app is ready to be deployed! Always flush after yourself (**delete build fo
  Installed & configured thanks to: <https://codechips.me/snowpack-svelte-typescript-tailwindcss/>
 
  **Babylon.js** TBD via: <https://github.com/DisownedWheat/BabylonJS-Svelte-Typescript-Example>
+
+### Additional workflow tooling
+
+(installed with npm global flag)
+
+**surge**: <https://surge.sh/help/getting-started-with-surge>
+
+**npm-check -u**: <https://www.npmjs.com/package/npm-check>
+
+**svelte-check**: <https://www.npmjs.com/package/svelte-check>
