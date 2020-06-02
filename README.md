@@ -12,17 +12,17 @@
 
 **Webpack** - advanced config
 
-**Snowpack dev server** - local https with working SSL
+**Snowpack dev server** - local https with working SSL; see <https://github.com/pikapkg/snowpack/issues/399>
 
 **Autoclear build folder** - export & clear automatically build folder after each build task
 
 ## Available Scripts
 
-### npm install
+`npm install`
 
 Installs all dependencies.
 
-### npm start
+`npm start`
 
 Runs the app in the development mode.
 Open <http://localhost:8080> to view it in the browser.
@@ -30,16 +30,16 @@ Open <http://localhost:8080> to view it in the browser.
 The page will reload if you make edits.
 You will also see any lint errors in the console.
 
-### npm test
+`npm test`
 
 Launches the test runner in the interactive watch mode.
 See the section about running tests for more information.
 
-### npm run lint
+`npm run lint`
 
 Lints code. Run **before build task**, otherwise it resorts to catch compiled false-positives.
 
-### npm run build
+`npm run build`
 
 Builds a static copy of yor site to the `build/` folder.
 Your app is ready to be deployed! Always flush after yourself (**delete build folder after export to production**)!
@@ -82,8 +82,8 @@ src
 
 (installed with npm global flag)
 
-**surge**: <https://surge.sh/help/getting-started-with-surge>
+`surge`: <https://surge.sh/help/getting-started-with-surge>
 
-**npm-check -u**: <https://www.npmjs.com/package/npm-check>
+`npm-check -u`: <https://www.npmjs.com/package/npm-check>
 
-**svelte-check**: <https://www.npmjs.com/package/svelte-check>
+`svelte-check`: <https://www.npmjs.com/package/svelte-check>
