@@ -4,11 +4,13 @@
 
 ### Production-ready boilerplate for development or further bootstrapping
 
-#### With Webpack plugin, Svelte, Typescript (ESLint, Prettier, lint-staged & husky), Tailwind & PostCSS
+#### With Svelte, Babylon.js basic scene setup, Webpack, Typescript (ESLint, Prettier, lint-staged & husky), Tailwind & PostCSS
 
 ## TO-DO
 
-**Babylon.js** - imports & basic scene boilerplate
+**Fix** `import.meta.hot` issue:  ''src/index.ts(12,17): error TS2339: Property 'hot' does not exist on type 'ImportMeta'.''
+
+**Jest** - unit-testing in typescript with `ts-jest` <https://github.com/kulshekhar/ts-jest>
 
 **Webpack** - advanced config
 
@@ -44,7 +46,7 @@ Lints code. Run **before build task**, otherwise it resorts to catch compiled fa
 Builds a static copy of yor site to the `build/` folder.
 Your app is ready to be deployed! Always flush after yourself (**delete build folder after export to production**)!
 
-## Current build size
+## Current build size (currently N/A)
 
 ```bash
 build
@@ -75,8 +77,6 @@ src
 ## NOTE
 
  Installed & configured thanks to: <https://codechips.me/snowpack-svelte-typescript-tailwindcss/>
-
- **Babylon.js** TBD via: <https://github.com/DisownedWheat/BabylonJS-Svelte-Typescript-Example>
 
 ### Additional workflow tooling
 

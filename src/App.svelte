@@ -1,58 +1,32 @@
 <script>
-	//import './main.css';
-	const message = 'Learn Svelte';
+  import { onMount } from "svelte/internal";
+  import Game from "./scene.ts";
+  let canvas;
+  onMount(async () => {
+    let game = new Game(canvas);
+    game.setup();
+	game.run()
+	});
 </script>
 
 <style>
-	:global(body) {
-		margin: 0;
-		font-family: Arial, Helvetica, sans-serif;
-	}
-	.App {
-		text-align: center;
-	}
-	.App-header {
-		background-color: #F9F6F6;
-		color: #333;
-		min-height: 100vh;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-		font-size: calc(10px + 2vmin);
-	}
-	.App-link {
-		color: #ff3e00;
-	}
-	.App-logo {
-		height: 40vmin;
-		pointer-events: none;
-		margin-bottom: 1.0rem;
-		animation: App-logo-spin infinite 1.6s ease-in-out alternate;
-	}
-	@keyframes App-logo-spin {
-		from {
-			transform: scale(1);
-		}
-		to {
-			transform: scale(1.06);
-		}
-	}
+  main {
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+  }
+  canvas {
+    width: 100%;
+    height: 100%;
+  }
+  @media (min-width: 640px) {
+    main {
+      max-width: none;
+    }
+  }
 </style>
 
-<div class="App">
-	<header class="App-header">
-		<img src="/logo.svg" class="App-logo" alt="logo" />	
-		<p>
-			Edit <code>src/App.svelte</code> and save to reload.
-		</p>
-		<a
-			class="App-link"
-			href="https://svelte.dev"
-			target="_blank"
-			rel="noopener noreferrer"
-		>
-			{message}
-		</a>
-	</header>
-</div>
+<main>
+  <canvas bind:this={canvas} id="app" />
+</main>

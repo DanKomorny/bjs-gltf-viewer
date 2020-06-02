@@ -10,10 +10,11 @@ export default class Game {
   }
 
   setup(): void {
-    this.scene.createDefaultCameraOrLight(true, true, true);
+    this.scene.createDefaultCameraOrLight(false, true, true);
     const ground = BABYLON.MeshBuilder.CreateGround("ground", { width: 5, height: 5 });
     ground.position.y -= 1;
     const sphere = BABYLON.MeshBuilder.CreateSphere("Sphere", { diameter: 1 });
+    sphere.position.y = 0;
   }
 
   run(): void {
