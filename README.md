@@ -76,11 +76,13 @@ src
 
 ## NOTE
 
- Installed & configured thanks to: <https://codechips.me/snowpack-svelte-typescript-tailwindcss/>
+ Installed & configured thanks to:
+ <https://codechips.me/snowpack-svelte-typescript-tailwindcss/> <https://github.com/DisownedWheat/BabylonJS-Svelte-Typescript-Example>
+ <https://www.robertcooper.me/using-eslint-and-prettier-in-a-typescript-project/>
 
 ### Additional workflow tooling
 
-(installed with npm global flag)
+(install with the npm global flag)
 
 `surge`: <https://surge.sh/help/getting-started-with-surge>
 
