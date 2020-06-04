@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url":  "git+https://github.com/DanKomorny/inenindo-poc.git"
+    "url":  "https://github.com/DanKomorny/inenindo-poc.git"
   },
   "keywords": [],
   "author": "",
