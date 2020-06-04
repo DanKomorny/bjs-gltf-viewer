@@ -2,8 +2,9 @@
   "scripts": {
     "start": "snowpack dev",
     "build": "snowpack build",
+    "publish": "surge ./build",
     "test": "jest",
-    "lint": "eslint '*/**/*.{js,ts,tsx}' --quiet --fix"
+    "lint": "eslint '*/**/*.{js,ts,tsx}' --quiet --fix" 
   },
   "repository": {
     "type": "git",
