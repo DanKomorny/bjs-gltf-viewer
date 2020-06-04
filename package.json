@@ -1,26 +1,16 @@
 {
-  "name": "inenindo-poc",
-  "version": "1.0.0",
-  "description": "Inenindo PoC",
-  "main": "index.ts",
   "scripts": {
     "start": "snowpack dev",
     "build": "snowpack build",
     "publish": "surge ./build",
     "test": "jest",
-    "lint": "eslint '*/**/*.{js,ts,tsx}' --quiet --fix"
+    "lint": "eslint '*/**/*.{js,ts,tsx}' --quiet --fix" 
   },
   "repository": {
     "type": "git",
-    "url":  "git+https://github.com/DanKomorny/inenindo-poc.git"
+    "url": "https://github.com/DanKomorny/bjs-gltf-viewer.git"
   },
-  "keywords": [],
-  "author": "",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/DanKomorny/inenindo-poc/issues"
-  },
-  "homepage": "https://github.com/DanKomorny/inenindo-poc#readme",
   "devDependencies": {
     "@babel/preset-env": "^7.10.2",
     "@babel/preset-typescript": "^7.10.1",

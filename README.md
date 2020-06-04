@@ -1,4 +1,23 @@
-# Inenindo PoC
+# gLTF Viewer
+
+## Bootstrapped with Create Snowpack App (CSA)
+
+### Production-ready boilerplate for immediate development or further bootstrapping
+
+#### Integrated with Svelte, Babylon.js basic scene setup, Webpack, Typescript (ESLint, Prettier, lint-staged & husky), Tailwind & PostCSS
+
+## TO-DO
+
+**Fix** `import.meta.hot` issue:  ''src/index.ts(12,17): error TS2339: Property 'hot' does not exist on type 'ImportMeta'.''
+Proposed here <https://github.com/pikapkg/esm-hmr>
+
+**Jest** - unit-testing in typescript with `ts-jest` <https://github.com/kulshekhar/ts-jest>
+
+**Webpack** - advanced config
+
+**Snowpack dev server** - local https with working SSL; see <https://github.com/pikapkg/snowpack/issues/399>
+
+**Autoclear build folder** - export & clear automatically build folder after each build task
 
 ## Available Scripts
 
@@ -62,6 +81,14 @@ src
 ```
 
 ## NOTE
+
+ Installed & configured thanks to:
+
+ <https://codechips.me/snowpack-svelte-typescript-tailwindcss/>
+
+ <https://github.com/DisownedWheat/BabylonJS-Svelte-Typescript-Example>
+
+ <https://www.robertcooper.me/using-eslint-and-prettier-in-a-typescript-project/>
 
 ### Additional workflow tools
 
