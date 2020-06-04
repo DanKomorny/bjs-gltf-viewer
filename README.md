@@ -2,9 +2,9 @@
 
 ## Bootstrapped with Create Snowpack App (CSA)
 
-### Production-ready boilerplate for development or further bootstrapping
+### Production-ready boilerplate for immediate development or further bootstrapping
 
-#### With Svelte, Babylon.js basic scene setup, Webpack, Typescript (ESLint, Prettier, lint-staged & husky), Tailwind & PostCSS
+#### Integrated with Svelte, Babylon.js basic scene setup, Webpack, Typescript (ESLint, Prettier, lint-staged & husky), Tailwind & PostCSS
 
 ## TO-DO
 
@@ -33,6 +33,15 @@ Open <http://localhost:8080> to view it in the browser.
 The page will reload if you make edits.
 You will also see any lint errors in the console.
 
+`npm run build`
+
+Builds a static copy of yor site to the `build/` folder.
+Your app is ready to be deployed! Always flush after yourself (**delete build folder after export to production**)!
+
+`npm run publish`
+
+Deploys your site online from `build/` folder using `surge`. See the section **Additional workflow tools** for more details.
+
 `npm test`
 
 Launches the test runner in the interactive watch mode.
@@ -41,11 +50,6 @@ See the section about running tests for more information.
 `npm run lint`
 
 Lints code. Run **before build task**, otherwise it resorts to catch compiled false-positives.
-
-`npm run build`
-
-Builds a static copy of yor site to the `build/` folder.
-Your app is ready to be deployed! Always flush after yourself (**delete build folder after export to production**)!
 
 ## Current build size
 
@@ -86,7 +90,7 @@ src
 
  <https://www.robertcooper.me/using-eslint-and-prettier-in-a-typescript-project/>
 
-### Additional workflow tooling
+### Additional workflow tools
 
 (install with the npm global flag)
 
