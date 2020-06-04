@@ -9,6 +9,7 @@
 ## TO-DO
 
 **Fix** `import.meta.hot` issue:  ''src/index.ts(12,17): error TS2339: Property 'hot' does not exist on type 'ImportMeta'.''
+Proposed here <https://github.com/pikapkg/esm-hmr>
 
 **Jest** - unit-testing in typescript with `ts-jest` <https://github.com/kulshekhar/ts-jest>
 
@@ -46,38 +47,43 @@ Lints code. Run **before build task**, otherwise it resorts to catch compiled fa
 Builds a static copy of yor site to the `build/` folder.
 Your app is ready to be deployed! Always flush after yourself (**delete build folder after export to production**)!
 
-## Current build size (currently N/A)
+## Current build size
 
 ```bash
 build
 ├── [  96]  build/css
-│   └── [ 557]  build/css/style-b32110100faa49d8cf56.css
+│   └── [ 169]  build/css/style-37edc95c98a5f504d66a.css
 ├── [1.1K]  build/favicon.ico
-├── [ 954]  build/index.html
-├── [  96]  build/js
-│   └── [5.9K]  build/js/bundle-b32110100faa49d8cf56.js
+├── [ 953]  build/index.html
+├── [ 128]  build/js
+│   ├── [2.8M]  build/js/bundle-37edc95c98a5f504d66a.js
+│   └── [ 811]  build/js/bundle-37edc95c98a5f504d66a.js.LICENSE.txt
 ├── [1.1K]  build/logo.svg
 └── [  67]  build/robots.txt
 
 public
 ├── [1.1K]  public/favicon.ico
-├── [ 882]  public/index.html
+├── [ 881]  public/index.html
 ├── [1.1K]  public/logo.svg
 └── [  67]  public/robots.txt
 
 src
-├── [1016]  src/App.svelte
+├── [ 482]  src/App.svelte
 ├── [ 252]  src/App.test.js
-├── [   0]  src/file.ts
-├── [ 349]  src/index.js
+├── [ 397]  src/index.ts
 ├── [  60]  src/main.css
+├── [ 679]  src/scene.ts
 └── [ 134]  src/tailwind.config.js
 ```
 
 ## NOTE
 
  Installed & configured thanks to:
- <https://codechips.me/snowpack-svelte-typescript-tailwindcss/> <https://github.com/DisownedWheat/BabylonJS-Svelte-Typescript-Example>
+
+ <https://codechips.me/snowpack-svelte-typescript-tailwindcss/>
+
+ <https://github.com/DisownedWheat/BabylonJS-Svelte-Typescript-Example>
+
  <https://www.robertcooper.me/using-eslint-and-prettier-in-a-typescript-project/>
 
 ### Additional workflow tooling
