@@ -1,4 +1,6 @@
-import BABYLON from "babylonjs";
+import * as BABYLON from "@babylonjs/core";
+//import * as LOADER from "@babylonjs/loaders";
+//import * as GUI from "@babylonjs/gui";
 
 export default class Game {
   engine: BABYLON.Engine;
@@ -11,10 +13,6 @@ export default class Game {
 
   setup(): void {
     this.scene.createDefaultCameraOrLight(false, true, true);
-    const ground = BABYLON.MeshBuilder.CreateGround("ground", { width: 5, height: 5 });
-    ground.position.y -= 1;
-    const sphere = BABYLON.MeshBuilder.CreateSphere("Sphere", { diameter: 1 });
-    sphere.position.y = 0;
   }
 
   run(): void {
