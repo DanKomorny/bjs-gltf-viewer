@@ -42,7 +42,7 @@
     "prettier": "^2.0.5",
     "rollup": "^2.13.1",
     "snowpack": "^2.2.4",
-    "svelte": "^3.21.0",
+    "svelte": "^3.49.0",
     "tailwindcss": "^1.4.6",
     "tslib": "^2.0.0",
     "typescript": "^3.9.3"
